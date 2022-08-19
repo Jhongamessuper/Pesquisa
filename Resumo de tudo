@@ -253,3 +253,39 @@ Uma vez que o defeito for encontrado, seja por intenção ou por acidente, o pr�
 Este mecanismo poderá ser, desde uma simples planilha, até uma ferramenta automatizada. Por motivos óbvios, uma ferramenta automatizada e construída para esse propósito será, sem sombra de dúvida, muito mais eficiente do que uma simples planilha ou solução alternativa.
 
 De qualquer forma, tão logo o defeito seja relatado, ele deverá ser submetido a um ciclo de vida pré-definido pelo processo de gestão de defeitos.
+
+Consequência
+
+Pode manchar a reputação da empresa
+Em casos extremos o erro sequer é percebido dentro da empresa, aí o problema se torna mais grave. Uma indústria que tem histórico de produtos que apresentam defeito certamente não terá boa reputação, precisará reduzir preço de mercado e, consequentemente, perderá receita.
+
+Regra 10 de Myers
+
+A regra 10 de Myers apresenta que o custo da correção de um defeito tende a aumentar quanto mais tarde ele for encontrado. Os defeitos encontrados nas fases iniciais do projeto de desenvolvimento do software são mais baratos do que aqueles encontrados na produção.
+
+Plano de teste
+
+Elaboração
+
+Introdução. Contém uma identificação do projeto, descrição dos objetivos do documento, o público ao qual ele se destina e escopo do projeto a ser desenvolvido.
+Requisitos a serem testados.
+Estratégias e ferramentas de teste.
+Equipe e infra-estrutura.
+Cronograma de atividades.
+Documentação complementar.
+
+Especificações
+
+Contém uma identificação do projeto, descrição dos objetivos do documento, o público ao qual ele se destina e escopo do projeto a ser desenvolvido. Pode adicionalmente conter termos e abreviações usadas, além de informar como o plano deve evoluir.
+
+Tipos de teste a serem executados no procedimento
+
+Teste funcional. Essa técnica testa os requisitos funcionais, as funções e os casos de uso (User Stories).
+Teste regressivo.
+Teste exploratório.
+Teste de segurança.
+Teste de Performance.
+
+Registros de teste
+
+Deve conter tudo o que foi feito tudo explicado.
