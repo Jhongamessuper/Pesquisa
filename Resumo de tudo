@@ -1,8 +1,11 @@
 Teste de software
 
 O teste de software é uma maneira de avaliar a quantidade da aplicação e reduzir o risco de falha em operação.
-Testar não consiste apenas em executar testes (executar o software e verificar os resultados).Executar testes é apenas umas das atividades.
-Planejamento, análize, modelagem e imprementação dos testes, relatórios de progresso, resultado e avaliação da qualidade, também são partes de um processo de testes.
+
+Testar não consiste apenas em executar testes (executar o software e verificar os resultados). Executar testes é apenas umas das atividades.
+
+Planejamento, análise, modelagem e implementação dos testes, relatórios de progresso, resultado e avaliação da qualidade, também são partes de um processo de testes.
+
 Testar software não é somente verificar se os requisitos foram atendidos ou se as estórias de usuário, bem como demais especificações, foram contempladas. Atribui-se ao teste de software também a validação, ou seja, verificar se o sistema atenderá às necessidades do usuário e de outras partes interessadas em seu(s) ambiente(s) operacional(s)
 
 Teste dinâmico e estático
@@ -12,13 +15,21 @@ O teste dinâmico refere-se à execução de um componente ou sistema. Já os de
 São vários os objetivos de se testar um software, independente do projeto. O Syllabus destaca os seguintes:
 
 Avaliar os produtos de trabalho (requisitos, estórias de usuário, modelagem e código);
+
 Verificar se todos os requisitos especificados foram atendidos;
+
 Validar se o objeto de teste está completo e funciona como os usuários e outras partes interessadas esperam;
+
 Criar confiança no nível de qualidade do objeto de teste;
+
 Evitar defeitos;
+
 Encontrar falhas e defeitos;
+
 Fornecer informações suficientes às partes interessadas para permitir que elas tomem decisões, especialmente em relação ao nível de qualidade do objeto de teste;
-Reduzir o nível de risco de qualidade de software inadequada (ex.:, falhas não detectadas anteriormente que ocorrem em produção);
+
+Reduzir o nível de risco de qualidade de software inadequada (ex: falhas não detectadas anteriormente que ocorrem em produção);
+
 Cumprir com requisitos ou normas contratuais, legais ou regulamentares, e/ou verificar o cumprimento do objeto de teste com tais requisitos ou normas.
 
 Testar software não é depurá-lo
@@ -29,10 +40,12 @@ Teste → A execução dos testes pode mostrar falhas causadas por defeitos no s
 
 Depuração → Atividade de desenvolvimento que localiza, analisa e corrige esses defeitos.
 
-Por que o teste é necessário?
+Porque o teste é necessário?
 
 Para reduzir o risco de falhas durante a operação. Isso se dá a partir de testes rigorosos de componentes e sistemas, além do uso de documentação adequada;
+
 Para contribuir com a qualidade dos componentes ou sistemas. Isso se dá a partir da detecção e correção de defeitos;
+
 Para atender aos requisitos contratuais/legais ou aos padrões específicos do setor a que se destinam;
 
 BUG, DEFEITO e FALHA
@@ -40,13 +53,16 @@ BUG, DEFEITO e FALHA
 Uma pessoa pode cometer um erro (engano), que pode levar à introdução de um defeito no código do software ou em algum outro produto de trabalho relacionado.
 
 Um erro que leva à introdução de um defeito em um produto de trabalho pode acionar outro erro que leva à introdução de um defeito em um outro produto de trabalho relacionado.
+
 Exemplo: uma pessoa levanta um requisito de forma incompleta, ambígua, incorreta. Caracteriza-se um erro. O projeto de software daquele requisito é realizado de forma incorreta. Caracteriza-se um defeito. O desenvolvedor cria um código incorreto a partir de um projeto incorreto/errado. Caracteriza-se um erro. O software gerado apresentará defeito devido ao código incorreto.
 
 A execução de um código defeituoso, pode causar uma falha, mas não necessariamente em todas as circunstâncias.
+
 Exemplo: bug do milênio, que ocorreu em uma circunstância específica.
 
 Nem todos os resultados de testes inesperados são falhas. Podem ocorrer falsos positivos (relatos de defeitos que não são defeitos) ou também falsos negativos (testes que não detectam defeitos que deveriam ser detectados).
-Falsos positivos podem ocorrer devido a erros na forma como os testes foram executados ou devido a defeito nos dados, no ambiente ou em outro tesware (produtos de teste) ou por outros motivos.
+
+Falsos positivos podem ocorrer devido a erros na forma como os testes foram executados ou devido a defeito nos dados, no ambiente ou em outro testware (produtos de teste) ou por outros motivos.
 
 Critérios de aceitação
 
@@ -58,7 +74,7 @@ Artefatos de teste são simplesmente parte integrante do teste de software. Gera
 
 Níveis de teste
 
-Existem vários tipos de testes: Unidade, Integração, Sistema, Aceitação, Regressão, Alfa e Beta.
+Existem vários tipos de testes. Unidade, Integração, Sistema, Aceitação, Regressão, Alfa e Beta.
 
 Unitário
 
@@ -66,22 +82,30 @@ O objetivo do teste unitário é assegurar que cada unidade está funcionando de
 
 Integração
 
-Consiste em módulos que são integrados e testados em grupo. Como por exemplo seu software, acessando um banco de dados ou fazendo uma chamada externa a outros sistemas.
+Consiste em módulos que são integrados e testados em grupo. Como, por exemplo, seu software, acessando um banco de dados ou fazendo uma chamada externa a outros sistemas.
+
 Assim como o teste de unidade, o teste de integração usa as mesmas ferramentas JUNIT, PHPUNIT entre outras.
-O teste de integração é executado antes do sistema estar concluído, ao contrário do teste de unidade que é executado após a criação do software.
+
+O teste de integração é executado antes de o sistema estar concluído, ao contrário do teste de unidade que é executado após a criação do software.
 
 Sistema
+
 É o processo de testar o sistema por completo. Verificando se os componentes são compatíveis, se eles interagem corretamente e se transferem os dados certos no momento certo. Tem como objetivo executar o software sob o ponto de vista do seu usuário final, realizando o teste do sistema.
+
 Os testes são realizados baseando-se nos documentos de especificações fornecidos daquele sistema. Quando um software é desenvolvido criamos um documento especificando o comportamento do software.
+
 A diferença do teste de sistema é que o teste é realizado após a codificação do sistema estar concluída.
 
 Aceitação
+
 Tem como objetivo executar o sistema sob o ponto de vista do usuário final. O cliente avalia o sistema e após a experiência de utilização tem a responsabilidade de aceitar ou não o sistema que foi entregue e pelo qual foi pago.
 
 Tipo de testes
 
 Testes funcionais
+
 O teste funcional consiste em uma série de subtestes (técnicas), cujo objetivo é atestar se a aplicação é capaz de desempenhar as funções que se propõe a fazer. As técnicas mais comuns englobadas pelo teste funcional são os testes denominados caixa-branca e caixa-preta.
+
 O teste de caixa-branca tem como foco a análise do comportamento interno do software, ou seja, o seu código-fonte. Já o teste de caixa-preta é feito em cima das funções que devem ser desempenhadas pelo programa.
 
 Regressão
@@ -102,7 +126,7 @@ Testes de fumaça são testes básicos que verificam as funcionalidades básicas
 
 Exploratório
 
-O teste exploratório consiste em design de teste e execução do teste ao mesmo tempo. Isso é o oposto de teste com script (procedimentos de teste predefinidos, manuais ou automatizados). Diferentes dos testes com script, os testes exploratórios não são definidos previamente e executados com exatidão conforme o plano.
+O teste exploratório consiste em design de teste e execução do teste em simultâneo. Isso é o oposto de teste com script (procedimentos de teste predefinidos, manuais ou automatizados). Diferentes dos testes com script, os testes exploratórios não são definidos previamente e executados com exatidão conforme o plano.
 
 Confirmação
 
@@ -111,6 +135,7 @@ Para isso é utilizado o Teste de confirmação (depois que um defeito é corrig
 Estresse
 
 Testes de estresse são usados para garantir a estabilidade e a confiabilidade do sistema. Os testes simulam uma alta taxa de dados e de tráfego e registram como o sistema responde nestas condições. É um dos testes mais importantes para garantir o sucesso das vendas, especialmente nas datas comerciais.
+
 Durante o teste de estresse, o software testado receberá uma alta carga de tráfego para saber o limite, até quando o software ou hardware suportarão. Isso permite melhorar o dimensionamento de infra, detectar scripts demasiadamente pesados e ter mais eficácia no gerenciamento de erros sob condições extremas.
 
 Carga
@@ -119,7 +144,7 @@ O teste de carga de definição geralmente refere-se ao teste como um subconjunt
 
 Volume
 
-O teste de volume também é chamado de teste de inundação e é um tipo de teste de desempenho. carga é um tipo de teste de software executado para testar o desempenho ou comportamento do sistema sob a carga esperada do mundo real. O teste de carga também é um tipo de teste de desempenho.
+O teste de volume também é chamado de teste de inundação e é um tipo de teste de desempenho. Carga é um tipo de teste de software executado para testar o desempenho ou comportamento do sistema sob a carga esperada do mundo real. O teste de carga também é um tipo de teste de desempenho.
 
 Recuperação
 
@@ -135,11 +160,11 @@ O teste automatizado é adequado quando os casos de teste precisam ser executado
 
 Técnicas de modelagem de teste
 
-Caixa braca e preta
+Caixa branca e preta
 
-A técnica de teste de caixa branca é conhecida por vários nomes tais como teste estrutural e teste de caixa de vidro. O engenheiro de sistema realiza o teste direto no código fonte do software. São determinados os dados de entrada para analisar a lógica do software.
+A técnica de teste de caixa branca é conhecida por vários nomes tais como teste estrutural e teste de caixa de vidro. O engenheiro de sistema realiza o teste direto no código-fonte do software. São determinados os dados de entrada para analisar a lógica do software.
 
-A desvantagem da técnica de caixa de caixa branca é que não analisa se a especificação esta certa, concentra apenas no código fonte e não verifica a lógica da especificação.
+A desvantagem da técnica de caixa branca é que não analisa se a especificação esta certa, concentra apenas no código-fonte e não verifica a lógica da especificação.
 
 O teste de caixa preta pode ser também chamado de teste funcional! Diferente do teste de caixa branca, ele possui esse nome porque o código-fonte é ignorado no teste. Assim, ao se utilizar dessa técnica, o tester não está preocupado com os elementos constitutivos do software, mas em como ele funciona.
 
@@ -160,6 +185,7 @@ O Diagrama de Causa e Efeito também conhecido como Diagrama de Ishikawa é uma 
 Classe de equivalência e valores limites
 
 O teste com base na análise de classe de equivalência (sinônimos: particionamento de equivalência, análise de domínio) é uma forma de análise de teste de caixa preta que tenta reduzir o número total de testes possíveis para um conjunto mínimo de testes que revelarão o número máximo de erros possível
+
 A técnica nos diz que devemos testar um valor imediatamente abaixo do que o limite, o valor limite e um valor imediatamente acima do valor limite. Com isso, temos os casos de teste para esse intervalo numérico conforme a técnica análise de valor limite.
 
 Ferramentas de testes
@@ -170,7 +196,7 @@ Mantis Bug Tracking é uma ferramenta WEB open source, desenvolvida em PHP, cust
 
 TestLink 
 
-Funcionalmente, a ferramenta permite que sejam cadastrados Projetos de Teste, bem como seus respectivos Planos e Casos de testes à serem validados. Então, a partir da definição do escopo do projeto de teste, é possível controlar e armazenar a execução dos casos de teste especificados.
+Funcionalmente, a ferramenta permite que sejam cadastrados Projetos de Teste, bem como seus respectivos Planos e Casos de testes a serem validados. Então, a partir da definição do escopo do projeto de teste, é possível controlar e armazenar a execução dos casos de teste especificados.
 
 JUnit 
 
@@ -189,9 +215,11 @@ Estratégias de teste
 Preventiva e reativa.
 
 Abordagem Preventiva
-Equipe de Testes é envolvida desde o início: planejando as atividades de teste e especificando as atividades de teste são cedo quando possível. Isto pode ocasionar a otimização das atividades de teste e consequente redução de custo, já que os bugs de expecificação e projeto serão encontrados cedo, gerando menos retrabalho. Aplicação de revisão e análise estática antes do desenvolvimento pode contribuir para prevenir defeitos em tempo de execução de testes. Desta forma, pode-se reduzir os custos com execução de testes e retrabalho.
+
+Equipe de Testes é envolvida desde o início: planejando as atividades de teste e especificando as atividades de teste são cedo quando possível. Isto pode ocasionar a otimização das atividades de teste e consequente redução de custo, já que os bugs de especificação e projeto serão encontrados cedo, gerando menos retrabalho. Aplicação de revisão e análise estática antes do desenvolvimento pode contribuir para prevenir defeitos em tempo de execução de testes. Desta forma, pode-se reduzir os custos com execução de testes e retrabalho.
 
 Abordagem Reativa
+
 São atividades nas quais a equipe de testes é envolvida muito tardiamente e a abordagem preventiva não pôde ser escolhida. Nesta situação a análise e projeto do sistema já foi concluído, de tal forma que a equipe de testes precisará ‘explorar’ as funcionalidades a ser entregues. Testes exploratórios são baseados na experiência dos testadores e têm como objetivo executar diversas possibilidades de execução e de avaliação.
 
 Gestão de defeitos
@@ -202,9 +230,11 @@ Um processo de gestão de defeitos tem o objetivo de definir práticas para prev
 
 Genericamente, o termo Erro (Error) é utilizado para indicar uma diferença entre valor computado, observado ou medido em relação ao esperado. No entanto, o padrão IEEE 610.12-1990 (IEEE Standard Glossary of Software Engineering Terminology) distingue a terminologia da seguinte forma:
 
-Defeito (Fault): Passo, processo ou definição de dados incorretos. Por exemplo, uma instrução incorreta no código ou uma falta num artefato estático;
-Engano (Mistake): Ação humana que produz um resultado incorreto, como por exemplo, uma ação incorreta tomada pelo desenvolvedor ou analista;
-Falha (Failure): Desvio entre o resultado/comportamento apresentado pela aplicação em relação aos requisitos. A falha ocorre em conseqüência de um erro, defeito ou engano gerando um comportamento incorreto da aplicação.
+Defeito (Fault): passo, processo ou definição de dados incorretos. Por exemplo, uma instrução incorreta no código ou uma falta num artefato estático;
+
+Engano (Mistake): Ação humana que produz um resultado incorreto, como, por exemplo, uma ação incorreta tomada pelo desenvolvedor ou analista;
+
+Falha (Failure): desvio entre o resultado/comportamento apresentado pela aplicação em relação aos requisitos. A falha ocorre em consequência de um erro, defeito ou engano gerando um comportamento incorreto da aplicação.
 
 Ciclo de vida
 
@@ -213,46 +243,13 @@ Como discutimos anteriormente, a qualidade de um sistema pode ser medida, essenc
 Podemos afirmar que os defeitos são encontrados por meio da execução formal dos testes (testes estruturais ou funcionais), durante a utilização do sistema em produção ou, até mesmo, por acidente. A priori, podemos classificar os defeitos nas seguintes categorias:
 
 Faltante (Missing): O defeito ocorre em virtude da falta parcial ou total de um requisito;
+
 Errado (Wrong): O defeito ocorre porque o requisito foi implementado incorretamente;
+
 Acréscimo (Extra): O defeito ocorre em virtude de um comportamento ou elemento que foi implementado, mas foi não especificado no requisito.
+
 Uma vez que o defeito for encontrado, seja por intenção ou por acidente, o próximo passo deverá ser o relato (ou reporte) desse defeito por meio de algum mecanismo estabelecido no processo de gestão de defeitos.
 
 Este mecanismo poderá ser, desde uma simples planilha, até uma ferramenta automatizada. Por motivos óbvios, uma ferramenta automatizada e construída para esse propósito será, sem sombra de dúvida, muito mais eficiente do que uma simples planilha ou solução alternativa.
 
-De qualquer forma, tão logo o defeito seja relatado, ele deverá ser submetido a um ciclo de vida pré-definido pelo processo de gestão de defeitos. Este ciclo de vida define os fluxos que o defeito deverá percorrer até o seu fechamento.
-
-Consequência
-
-
-
-regra 10 de Myers.
-
-A regra 10 de Myers apresenta que o custo da correção de um defeito tende a aumentar quanto mais tarde ele for encontrado. Os defeitos encontrados nas fases iniciais do projeto de desenvolvimento do software são mais baratos do que aqueles encontrados na produção.
-
-Plano de Teste
-
-
-
-Elaboração
-
-O plano de teste, que pode ser elaborado pelo gerente de projeto ou gerente de testes, visa planejar as atividades a serem realizadas, definir os métodos a serem empregados, planejar a capacidade necessária, estabelecer métricas e formas de acompanhamento do processo.
-
-Especificações
-
-Trata-se de um documento ou mapa no qual se definem escopo e objetivos, além de requisitos, estratégias e recursos a serem empregados nas atividades de testes de software. Nesse sentido, o artigo apresenta os itens que devem fazer parte de um documento de plano de teste, exemplificando e discutindo esses itens.
-
-Tipos de teste a serem executados no procedimento
-
-Teste funcional,Teste regressivo,Teste exploratório,Teste de segurança,Teste de Performance.
-
-Registros de teste
-
-Trata-se de um documento ou mapa no qual se definem escopo e objetivos, além de requisitos, estratégias e recursos a serem empregados nas atividades de testes de software.
-
-
-
-
-
-
-
-
+De qualquer forma, tão logo o defeito seja relatado, ele deverá ser submetido a um ciclo de vida pré-definido pelo processo de gestão de defeitos.
